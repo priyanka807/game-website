@@ -1,21 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* background: linear-gradient(270deg, #F4D869 0%, #D59A2D 20.5%, #FBE767 39.5%, #D59A2D 60%, #FBE767 79.5%, #C9A541 100%),
+linear-gradient(47.52deg, #AE5D23 20.65%, #FFC87F 48.12%, #B1603C 74.94%); */
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
+} */
+ body{
+background-color: #333333;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.game_container{  
+  background-color: #333333;
+width:1920px;
+height: 1080px;
+/* margin:0px 80px 0px 80px; */
+position: relative;
+ top:-540px;
+left:-960px;
+background: #00000033;
+backdrop-filter: blur(4px);
+background-image: url("/Bg.png");
+background-size: cover;
+background-repeat: no-repeat; 
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.nav_container{
+  position: relative;
+}
+
+.profile_photo{
+  position: absolute;
+border-radius: 50%;
+  width: 91.43px;
+  height:91.43px;
+  background: #301405;
+  top:8px;
+  left:55px;
+  /* border:solid 5px #301405; */
+  /* background: radial-gradient(50% 50% at 50.01% 49.99%, #505050 0%, #313131 100%); */
+  
+}
+
+.profile_photo_sub_div{
+  /* position: absolute;
+  border-radius: 50%;
+    width:89.22px;
+  height: 89.22px;
+  border-radius: 50%;
+  top:9.1px;
+  left:56.1px;
+  background: linear-gradient(0deg, #AE5D23 0.01%, #FFC87F 50.61%, #B1603C 100.01%); */
+
 }

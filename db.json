@@ -1,0 +1,17 @@
+{
+    "userlist": [
+      {
+        "id": "priyanka",
+        "username": "priyanka",
+        "password": "priyanka"
+        
+      },
+      {
+        "id": "khushboo",
+        "email": "khushboo",
+        "password": "khushboo"
+        
+      }
+    ]
+
+  }
